@@ -1,7 +1,6 @@
 const col = require('colors')
 const ps = require('prompt-sync')
 const pss = ps()
-const tricks = require('tricks.js')
 
 var username = ''
 
@@ -27,10 +26,11 @@ setTimeout(() => {
 function starting() {
     console.log('')
     let min = pss('Okay, enter the mininmum amount --> ')
-    console.log('')
+    console.log(min)
     let max = pss('Okay, enter the maximum amount --> ')
-    console.log('')
-    let amount = tricks.randomNumber(min, max)
+    console.log(max)
+    let amount = Math.floor(Math.random() * (parseInt(max) - parseInt(min)) + parseInt(min) + 1)
+    console.log(amount)
     
     console.log('Okay, test now!')
     let testing = pss('number --> ')
