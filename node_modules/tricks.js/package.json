@@ -1,0 +1,12 @@
+{
+  "name": "tricks.js",
+  "version": "4.7.1",
+  "description": "A package that will make your life easier in javascript!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hold_Mine",
+  "license": "ISC",
+  "keywords": ["tricks", "trick", "js", "javascript", "help", "fast", "gain"]
+}

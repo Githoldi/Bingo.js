@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt-sync": "^4.2.0",
+    "tricks.js": "^4.7.1"
+  }
+}
