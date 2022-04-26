@@ -26,11 +26,8 @@ setTimeout(() => {
 function starting() {
     console.log('')
     let min = pss('Okay, enter the mininmum amount --> ')
-    console.log(min)
     let max = pss('Okay, enter the maximum amount --> ')
-    console.log(max)
     let amount = Math.floor(Math.random() * (parseInt(max) - parseInt(min)) + parseInt(min) + 1)
-    console.log(amount)
     
     console.log('Okay, test now!')
     let testing = pss('number --> ')
